@@ -1,0 +1,6 @@
+taxp = input('Tax Percentage in your area: ')
+income = input('What is your anual gross income: ')
+tax = float(taxp) * (float(income) / 100)
+salary = float(income) - float(tax)
+print('Your net income is ' + str(salary))
+print('The anual amount of tax reducted from your gross income is ' + str(tax))
