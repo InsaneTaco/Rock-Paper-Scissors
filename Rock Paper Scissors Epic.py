@@ -22,7 +22,7 @@ class RockPaperScissors:
             elif self.playerMove == 'rock' and self.opponentMove == 'scissors':
                 return "win"
             else:
-                return "loose"
+                return "lose"
 
 playerMove = input('Welcome to Epic Rock Paper Scissors! ').lower()
 rps = RockPaperScissors(playerMove)
